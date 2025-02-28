@@ -1,0 +1,124 @@
+.contacto {
+  padding: 4rem 2rem;
+  background-color: #1B3C59;
+  font-family: (--font-secondary);
+  color: var(--color-white);
+  text-align: justify;
+}
+
+.contacto-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contacto-info, 
+.contacto-form-container {
+  flex: 1;
+  min-width: 300px;
+
+}
+
+.contacto-info h2 {
+  color: #C5A572;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.contacto-form-container h2 {
+  color: #C5A572;
+  margin-bottom: 1rem;
+}
+
+.contacto-info h3 {
+  color: #C5A572;
+  margin-bottom: 1rem;
+}
+
+.direccion {
+  margin-top: 2rem;
+}
+
+.whatsapp-button {
+  margin-top: 1.5rem;
+}
+
+.whatsapp-button a {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #C5A572;
+  color: white;
+  text-decoration: none;
+  border-color: white;
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+.whatsapp-button a:hover {
+  transform: translateY(-2px);
+}
+
+.contacto-form {
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #C5A572;
+  color: white;
+  text-decoration: none;
+  border-color: #735322;
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #C5A572;
+  color: white;
+  text-decoration: none;
+  border-color: #735322;
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .contacto-container {
+    flex-direction: column;
+  }
+  
+  .contacto-info,
+  .contacto-form-container {
+    width: 100%;
+  }
+}

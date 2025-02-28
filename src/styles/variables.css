@@ -1,0 +1,43 @@
+:root {
+ 
+  /* Colores */
+  --color-primary: #1B3C59;    /* Azul Marina */
+  --color-text: #465B6D;       /* Gris Profesional */
+  --color-accent: #C5A572;     /* Dorado Prestigio */
+  --color-bg-alt: #F5F6F7;     /* Gris Claro */
+  --color-white: #FFFFFF;      /* Blanco Puro */
+  --color-black: #000000;      /* Negro Puro */
+  --color-gray: #333333;      /* Gris Puro */
+  
+  --textx--color-primary: #1B3C59;    /* Azul Marina */
+  --textx--color-text: #465B6D;       /* Gris Profesional */
+  --textx--color-accent: #C5A572;     /* Dorado Prestigio */
+  --textx--color-bg-alt: #F5F6F7;     /* Gris Claro */
+  --textx--color-white: #FFFFFF;      /* Blanco Puro */
+  --textx--color-black: #000000;      /* Negro Puro */
+  --textx--color-gray: #333333;      /* Gris Puro */
+
+  /* Tipografía */
+  --font-primary: 'Libre Baskerville';
+  --font-secondary: 'Open Sans';
+
+  /* Tamaños de fuente */
+  --h1-size: 36px;
+  --h2-size: 28px;
+  --h3-size: 24px;
+  --text-base: 16px;
+
+  /* Espaciado */
+  --line-height: 1.6;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Colores existentes */
+  --swiper-theme-color: var(--color-accent);
+  --swiper-navigation-size: 24px;
+  --swiper-navigation-color: var(--color-white);
+  --swiper-pagination-color: var(--color-white);
+
+}
